@@ -1,9 +1,17 @@
 # Terraform
 .terraform/
+**/.terraform/*
 *.tfstate
 *.tfstate.*
 *.tfplan
+*.tfvars
+!*.tfvars.example
+tfplan
 crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
 
 # Python
 __pycache__/
