@@ -33,3 +33,9 @@ venv/
 # OS
 .DS_Store
 Thumbs.db
+
+# Ingestion local files
+ingestion/data/*
+!ingestion/data/.gitkeep
+ingestion/logs/*
+!ingestion/logs/.gitkeep
